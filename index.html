@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <title>notification</title>
+</head>
+<body>
+    <main>
+        <!-- header -->
+        <div class="noti-group">
+        <p class="lrg-font-bold">notification</p>
+        <p class="active underline lrg-font-bold"><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-checks" width="20" height="20" viewBox="0 0 20 20" stroke-width="1.5" stroke="#3475dd" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <path d="M7 12l5 5l10 -10" />
+            <path d="M2 12l5 5m5 -5l5 -5" />
+          </svg>Mark as read</p>
+        </div>
+        <!-- list group -->
+        <div class="notification_list">
+            <!-- first item -->
+            <article class="item ">
+                <!-- dot -->
+                <span id="dot"></span>
+                <!-- 1st para -->
+                <p class="lrg-font-bold">There is a new updated version of our software available</p>
+                <!-- date time -->
+               <p class="sm-font-white">Sep 2, 2022 at 10:11AM</p>
+                <!-- important log -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-message-report" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#3475dd" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M4 21v-13a3 3 0 0 1 3 -3h10a3 3 0 0 1 3 3v6a3 3 0 0 1 -3 3h-9l-4 4" />
+                    <line x1="12" y1="8" x2="12" y2="11" />
+                    <line x1="12" y1="14" x2="12" y2="14.01" />
+                  </svg>
+                  </article>
+                  <!-- second item -->
+            <article class="item active box">               <!-- dot -->
+                <span id="dot"></span>
+                <!-- 2nd para -->
+                <p class="lrg-font-bold">I'm ready to answer all you questions about onboarding</p>
+                <!-- date time -->
+                <p class="sm-font-white">Julien Gormik <span id="white dot"></span> Sep 2, 2022 at 11:01AM</p>
+                <!-- profile -->
+                <img src="./bg.jpg" style="border-radius:50% ;width: 50px; height: 50px;" alt="">
+
+
+            </article>
+            <!-- third item -->
+            <article class="item">
+                <!-- dot -->
+                <span id="dot"></span>
+                <!-- 3rd para -->
+                <p class="lrg-font-bold">You received a new message in your box from our support.</p>
+                <!-- date time -->
+                <p class="sm-font-white">Sep 1, 2022 at 11:34 PM</p>
+                <!-- message log -->
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-message-circle-2" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#3475dd" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M3 20l1.3 -3.9a9 8 0 1 1 3.4 2.9l-4.7 1" />
+                    <line x1="12" y1="12" x2="12" y2="12.01" />
+                    <line x1="8" y1="12" x2="8" y2="12.01" />
+                    <line x1="16" y1="12" x2="16" y2="12.01" />
+                  </svg>
+
+            </article>
+
+
+        </div>
+       <div class="line"></div>
+        <p class="active underline lrg-font-bold">view all notifications</p>
+
+    </main>
+</body>
+</html>
